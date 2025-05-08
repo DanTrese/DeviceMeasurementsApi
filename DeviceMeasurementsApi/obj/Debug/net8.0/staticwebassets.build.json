@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "NOVkP9bz56ZdRojEp7AfD/L+1QYbvKJdZSBeiZDF0sg=",
+  "Source": "DeviceMeasurementsApi",
+  "BasePath": "_content/DeviceMeasurementsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DeviceMeasurementsApi\\wwwroot",
+      "Source": "DeviceMeasurementsApi",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\",
+      "BasePath": "_content/DeviceMeasurementsApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\index.html",
+      "SourceId": "DeviceMeasurementsApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\",
+      "BasePath": "_content/DeviceMeasurementsApi",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xg3fr4xai4",
+      "Integrity": "UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:23:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU="
+        }
+      ]
+    },
+    {
+      "Route": "index.xg3fr4xai4.html",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 08 May 2025 20:23:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xg3fr4xai4"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU="
+        }
+      ]
+    }
+  ]
+}
