@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using DeviceMeasurementsApi.Models;
 using System.Diagnostics.Metrics;
 using DeviceMeasurementsApi.Data;
+using DeviceMeasurementsApi.Services;
+using System.Text.Json;
 
 namespace DeviceMeasurementsApi.Controllers
 {
@@ -11,10 +13,12 @@ namespace DeviceMeasurementsApi.Controllers
     public class MeasurementsController : ControllerBase
     {
 
+        private readonly StreamControlService _streamControl;
         private readonly MeasurementDbContext _context;
 
-        public MeasurementsController(MeasurementDbContext dbContext)
+        public MeasurementsController(StreamControlService streamControl, MeasurementDbContext dbContext)
         {
+            _streamControl = streamControl;
             _context = dbContext;
         }
 

@@ -1,8 +1,11 @@
-﻿using DeviceMeasurementsApi.Services;
+﻿using DeviceMeasurementsApi.Data;
+using DeviceMeasurementsApi.Services;
 using Microsoft.AspNetCore.Mvc;
+using DeviceMeasurementsApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Metrics;
 using System.Threading;
+using System.Text.Json;
 
 namespace DeviceMeasurementsApi.Controllers
 {
@@ -12,24 +15,38 @@ namespace DeviceMeasurementsApi.Controllers
     public class SSEController : ControllerBase
     {
         private readonly StreamControlService _streamControl;
+        private readonly MeasurementDbContext _context;
 
-        public SSEController(StreamControlService streamControl)
+        public SSEController(StreamControlService streamControl, MeasurementDbContext dbContext)
         {
             _streamControl = streamControl;
+            _context = dbContext;
         }
 
         [HttpGet("sse")]
         public async Task GetSse(CancellationToken cancellationToken)
         {
             Response.Headers.Add("Content-Type", "text/event-stream");
+            Response.Headers.Add("Connection", "keep-alive");
             _streamControl.Reset();
 
             while (!cancellationToken.IsCancellationRequested && !_streamControl.ShouldStop)
             {
-                var message = $"data: {DateTime.Now}\n\n";
+
+                var latest = _context.Measurements
+                .OrderByDescending(m => m.Timestamp)
+                .FirstOrDefault();
+                if (latest == null)
+                {
+                    await Response.WriteAsync("Not Found");
+                    _streamControl.RequestStop();
+                }
+                var json = JsonSerializer.Serialize(latest);
+                var message = $"data: {json}\n\n";
+
                 await Response.WriteAsync(message);
                 await Response.Body.FlushAsync();
-                await Task.Delay(1000, cancellationToken);
+                await Task.Delay(5000, cancellationToken);
             }
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeviceMeasurementsApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebd33370512eaf3e0c15177db424e5d572578e8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeviceMeasurementsApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeviceMeasurementsApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
