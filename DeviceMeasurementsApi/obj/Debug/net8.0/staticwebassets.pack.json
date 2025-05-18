@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\ssss.html",
-      "PackagePath": "staticwebassets\\ssss.html"
+      "Id": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\site.html",
+      "PackagePath": "staticwebassets\\site.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DeviceMeasurementsApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

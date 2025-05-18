@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o6zOYMqIh8Em+KxteImqY9wvMNGHCNAKQTiAAtTCL1g=",
+  "Hash": "iABm4QRAUl4WSAk8+MODoCjMCapD031UXQbShokZAgI=",
   "Source": "DeviceMeasurementsApi",
   "BasePath": "_content/DeviceMeasurementsApi",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\ssss.html",
+      "Identity": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\site.html",
       "SourceId": "DeviceMeasurementsApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\",
       "BasePath": "_content/DeviceMeasurementsApi",
-      "RelativePath": "ssss#[.{fingerprint}]?.html",
+      "RelativePath": "site#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,17 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o04sir37p0",
-      "Integrity": "WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk=",
+      "Fingerprint": "6x9whhvp57",
+      "Integrity": "Or8HjW6wAXtpENtUr/IbTj7qaCVh3Rktb4g7mKVuWek=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ssss.html"
+      "OriginalItemSpec": "wwwroot\\site.html"
     }
   ],
   "Endpoints": [
     {
-      "Route": "ssss.html",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\ssss.html",
+      "Route": "site.6x9whhvp57.html",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\site.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -50,7 +50,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5837"
+          "Value": "5956"
         },
         {
           "Name": "Content-Type",
@@ -58,48 +58,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk=\""
+          "Value": "\"Or8HjW6wAXtpENtUr/IbTj7qaCVh3Rktb4g7mKVuWek=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 09:53:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk="
-        }
-      ]
-    },
-    {
-      "Route": "ssss.o04sir37p0.html",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\ssss.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5837"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 09:53:57 GMT"
+          "Value": "Sun, 18 May 2025 14:11:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -109,15 +72,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o04sir37p0"
+          "Value": "6x9whhvp57"
         },
         {
           "Name": "label",
-          "Value": "ssss.html"
+          "Value": "site.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk="
+          "Value": "sha256-Or8HjW6wAXtpENtUr/IbTj7qaCVh3Rktb4g7mKVuWek="
+        }
+      ]
+    },
+    {
+      "Route": "site.html",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\site.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Or8HjW6wAXtpENtUr/IbTj7qaCVh3Rktb4g7mKVuWek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 14:11:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Or8HjW6wAXtpENtUr/IbTj7qaCVh3Rktb4g7mKVuWek="
         }
       ]
     }

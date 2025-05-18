@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вiброметр UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #1e88e5;
+            color: white;
+            padding: 16px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 32px;
+            width: 80%;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin-top: 16px;
+        }
+
+        input {
+            padding: 8px;
+            width: 100%;
+            margin-top: 8px;
+        }
+
+        button {
+            margin-top: 16px;
+            padding: 16px 32px;
+            background-color: #1e88e5;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #1565c0;
+            }
+
+        #status, #loginStatus {
+            margin-top: 16px;
+            font-weight: bold;
+        }
+
+        #streamLog {
+            height: 150px;
+            overflow-y: auto;
+            background: #eee;
+            padding: 16px;
+            border-radius: 5px;
+            margin-top: 16px;
+            font-size: 16px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Вiброметр FrontEnd</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Авторизація</h2>
+            <label for="username">Ім'я користувача</label>
+            <input type="text" id="username" />
+            <label for="password">Пароль</label>
+            <input type="password" id="password" />
+            <button onclick="login()">Увійти</button>
+            <button onclick="logout()">Вийти</button>
+            <div id="loginStatus">Статус: Не авторизовано</div>
+        </section>
+
+        <section>
+            <h2>Підключення до пристрою</h2>
+            <label for="ip">IP адреса</label>
+            <input type="text" id="ip" placeholder="наприклад: 192.168.0.100" />
+            <label for="port">Порт</label>
+            <input type="text" id="port" placeholder="наприклад: 8080" />
+            <button onclick="connectDevice()">Підключитись</button>
+            <div id="status">Статус: Не підключено</div>
+        </section>
+
+        <section id="mainSection" style="display:none">
+            <h2>Основне вікно</h2>
+            <button onclick="startStream()">Старт потоку</button>
+            <button onclick="stopStream()">Зупинити потік</button>
+            <div id="streamLog"></div>
+        </section>
+    </main>
+
+    <script>
+        let connected = false;
+        let eventSource = null;
+
+        function connectDevice() {
+            const ip = document.getElementById("ip").value;
+            const port = document.getElementById("port").value;
+            if (ip && port) {
+                connected = true;
+                document.getElementById("status").textContent = "Статус: Підключено до " + ip + ":" + port;
+            } else {
+                alert("Введіть IP та порт");
+            }
+        }
+
+        function startStream() {
+            if (!connected) return alert("Підключіться до пристрою спочатку");
+            if (eventSource) eventSource.close();
+            eventSource = new EventSource("/api/sse/sse");
+            eventSource.onmessage = (e) => {
+                const log = document.getElementById("streamLog");
+                log.innerHTML += `${e.data}<br>`;
+                log.scrollTop = log.scrollHeight;
+            };
+        }
+
+        function stopStream() {
+            fetch("/api/sse/stop", { method: "POST" });
+            if (eventSource) {
+                eventSource.close();
+                eventSource = null;
+            }
+        }
+
+        async function login() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+
+            const res = await fetch("/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: `username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`
+            });
+
+            if (res.ok) {
+                document.getElementById("loginStatus").textContent = "Статус: Авторизовано";
+                document.getElementById("mainSection").style.display = "block";
+            } else {
+                alert("Невірні дані входу");
+                document.getElementById("loginStatus").textContent = "Статус: Не авторизовано";
+                document.getElementById("mainSection").style.display = "none";
+            }
+        }
+
+        async function logout() {
+            await fetch("/logout", { method: "POST" });
+            document.getElementById("loginStatus").textContent = "Статус: Не авторизовано";
+            document.getElementById("mainSection").style.display = "none";
+        }
+    </script>
+</body>
+</html>

@@ -185,3 +185,5 @@ C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\bin\Debu
 C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\obj\Debug\net8.0\DeviceMeasurementsApi.RazorAssemblyInfo.cache
+C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\obj\Debug\net8.0\DeviceMeasurementsApi.RazorAssemblyInfo.cs

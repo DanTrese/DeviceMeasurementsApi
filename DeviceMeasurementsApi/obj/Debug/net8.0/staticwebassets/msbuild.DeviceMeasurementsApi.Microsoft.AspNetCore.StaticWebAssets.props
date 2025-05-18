@@ -1,22 +1,22 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ssss.html'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\site.html'))">
       <SourceType>Package</SourceType>
       <SourceId>DeviceMeasurementsApi</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/DeviceMeasurementsApi</BasePath>
-      <RelativePath>ssss.html</RelativePath>
+      <RelativePath>site.html</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o04sir37p0</Fingerprint>
-      <Integrity>WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk=</Integrity>
+      <Fingerprint>6x9whhvp57</Fingerprint>
+      <Integrity>Or8HjW6wAXtpENtUr/IbTj7qaCVh3Rktb4g7mKVuWek=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ssss.html'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\site.html'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

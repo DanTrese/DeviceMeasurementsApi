@@ -115,6 +115,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DeviceMeasurementApi.Controllers.StreamUiController",
+    "Method": "Connect",
+    "RelativePath": "connect",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DeviceMeasurementsApi.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "login",

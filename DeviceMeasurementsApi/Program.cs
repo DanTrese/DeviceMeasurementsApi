@@ -33,7 +33,7 @@ namespace DeviceMeasurementsApi
              });
 
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllersWithViews();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

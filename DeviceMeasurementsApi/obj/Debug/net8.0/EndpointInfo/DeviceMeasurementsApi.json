@@ -212,6 +212,18 @@
           }
         }
       }
+    },
+    "/connect": {
+      "get": {
+        "tags": [
+          "StreamUi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
