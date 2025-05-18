@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NOVkP9bz56ZdRojEp7AfD/L+1QYbvKJdZSBeiZDF0sg=",
+  "Hash": "o6zOYMqIh8Em+KxteImqY9wvMNGHCNAKQTiAAtTCL1g=",
   "Source": "DeviceMeasurementsApi",
   "BasePath": "_content/DeviceMeasurementsApi",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\ssss.html",
       "SourceId": "DeviceMeasurementsApi",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\",
       "BasePath": "_content/DeviceMeasurementsApi",
-      "RelativePath": "index#[.{fingerprint}]?.html",
+      "RelativePath": "ssss#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,17 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xg3fr4xai4",
-      "Integrity": "UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU=",
+      "Fingerprint": "o04sir37p0",
+      "Integrity": "WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot\\ssss.html"
     }
   ],
   "Endpoints": [
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\index.html",
+      "Route": "ssss.html",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\ssss.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -50,7 +50,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2307"
+          "Value": "5837"
         },
         {
           "Name": "Content-Type",
@@ -58,11 +58,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU=\""
+          "Value": "\"WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 20:23:23 GMT"
+          "Value": "Sun, 18 May 2025 09:53:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72,13 +72,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU="
+          "Value": "sha256-WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk="
         }
       ]
     },
     {
-      "Route": "index.xg3fr4xai4.html",
-      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\index.html",
+      "Route": "ssss.o04sir37p0.html",
+      "AssetFile": "C:\\Users\\danie\\source\\repos\\DeviceMeasurementsApi\\DeviceMeasurementsApi\\wwwroot\\ssss.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -87,7 +87,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2307"
+          "Value": "5837"
         },
         {
           "Name": "Content-Type",
@@ -95,11 +95,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU=\""
+          "Value": "\"WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 20:23:23 GMT"
+          "Value": "Sun, 18 May 2025 09:53:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -109,15 +109,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xg3fr4xai4"
+          "Value": "o04sir37p0"
         },
         {
           "Name": "label",
-          "Value": "index.html"
+          "Value": "ssss.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UdqqBdG8vEUwtNwUSRYh/RN6uoTqFEEE1Abn9OOyWiU="
+          "Value": "sha256-WJGaPXBW4CRdNnpONm4NxAFpowYRtWie5Q0ob19wASk="
         }
       ]
     }

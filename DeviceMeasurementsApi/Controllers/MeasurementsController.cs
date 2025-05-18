@@ -1,36 +1,44 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using DeviceMeasurementsApi.Models;
-using System.Diagnostics.Metrics;
 using DeviceMeasurementsApi.Data;
 using DeviceMeasurementsApi.Services;
-using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DeviceMeasurementsApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MeasurementsController : ControllerBase
     {
-
+        private readonly ILogger<MeasurementsController> _logger;
         private readonly StreamControlService _streamControl;
         private readonly MeasurementDbContext _context;
 
-        public MeasurementsController(StreamControlService streamControl, MeasurementDbContext dbContext)
+        public MeasurementsController(StreamControlService streamControl, MeasurementDbContext dbContext, ILogger<MeasurementsController> logger)
         {
             _streamControl = streamControl;
             _context = dbContext;
+            _logger = logger;
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult AddMeasurement([FromBody] Measurement measurement)
         {
-            _context.Measurements.Add(measurement);
+            _logger.LogInformation("POST /api/measurements");
 
+            var key = Request.Headers["x-api-key"].FirstOrDefault();
+            if (key != "Simulqtor_Privit")
+                return Unauthorized("Невірний ключ");
+
+            _context.Measurements.Add(measurement);
             _context.SaveChanges();
 
+            _logger.LogInformation($"Вимірювання {measurement.Id} збережено у БД");
             return CreatedAtAction(nameof(AddMeasurement), new { measurement.Id }, measurement);
         }
+
 
         [HttpGet]
         public IActionResult GetMeasurement()
@@ -50,13 +58,19 @@ namespace DeviceMeasurementsApi.Controllers
         [HttpGet("latest")]
         public IActionResult GetLatestMeasurement()
         {
+            _logger.LogInformation("GET /api/measurements/latest");
+
             var latest = _context.Measurements
             .OrderByDescending(m => m.Timestamp)
             .FirstOrDefault();
 
-            if (latest == null)
+            if (latest == null) {
+                _logger.LogInformation("Вимірювань не знайдено");
                 return NotFound();
+            }
+                
 
+            _logger.LogInformation($"Останне вимірювання відправлено кліенту");
             return Ok(latest);
         }
 
@@ -86,7 +100,7 @@ namespace DeviceMeasurementsApi.Controllers
             }
             else if (measurement.Value < 0)
             {
-                return BadRequest("Ungültige Messung!");
+                return BadRequest();
             }
 
             mesurementInDb.Timestamp = measurement.Timestamp;

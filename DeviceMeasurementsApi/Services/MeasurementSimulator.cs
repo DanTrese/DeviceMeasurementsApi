@@ -6,6 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using DeviceMeasurementsApi.Models;
 
+
 namespace DeviceMeasurementsApi.Services
 {
     public class MeasurementSimulator : BackgroundService
@@ -21,6 +22,7 @@ namespace DeviceMeasurementsApi.Services
         {
             var random = new Random();
 
+
             while (!stoppingToken.IsCancellationRequested)
             {
                 var measurement = new Measurement
@@ -30,6 +32,7 @@ namespace DeviceMeasurementsApi.Services
                 };
 
                 var client = _httpClientFactory.CreateClient();
+                client.DefaultRequestHeaders.Add("x-api-key", "Simulqtor_Privit");
                 try
                 {
                     await client.PostAsJsonAsync("https://localhost:7031/api/measurements", measurement, stoppingToken);

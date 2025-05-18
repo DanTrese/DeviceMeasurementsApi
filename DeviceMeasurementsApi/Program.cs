@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using DeviceMeasurementsApi.Data;
 using DeviceMeasurementsApi.Services;
+using Serilog;
 
 namespace DeviceMeasurementsApi
 {
@@ -9,25 +10,36 @@ namespace DeviceMeasurementsApi
     {
         public static void Main(string[] args)
         {
+            Log.Logger = new LoggerConfiguration()
+            .WriteTo.Console()
+            .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+            .CreateLogger();
+
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
             builder.Services.AddDbContext<MeasurementDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddHttpClient();
             builder.Services.AddHostedService<MeasurementSimulator>();
             builder.Services.AddSingleton<StreamControlService>();
+            builder.Host.UseSerilog();
+
+            builder.Services.AddAuthentication("Cookies")
+            .AddCookie("Cookies", options =>
+            {
+              options.LoginPath = "/login";
+              options.AccessDeniedPath = "/denied";
+             });
+
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -39,6 +51,7 @@ namespace DeviceMeasurementsApi
             app.UseAuthorization();
 
             app.UseStaticFiles();
+
 
             app.MapControllers();
 

@@ -1,0 +1,1519 @@
+2025-05-18 10:57:54.897 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 10:57:55.158 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:57:55.169 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:57:55.753 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 10:57:55.756 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 10:57:55.884 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 10:57:55.887 +02:00 [INF] Hosting environment: Development
+2025-05-18 10:57:55.890 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 10:57:56.013 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:57:56.115 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:57:56.156 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:57:56.400 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 402.3375ms
+2025-05-18 10:57:56.422 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:57:56.434 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:57:56.439 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:57:56.442 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 19.9895ms
+2025-05-18 10:57:56.447 +02:00 [INF] Received HTTP response headers after 1270.147ms - 405
+2025-05-18 10:57:56.455 +02:00 [INF] End processing HTTP request after 1308.9318ms - 405
+2025-05-18 10:58:00.379 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 10:58:00.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 497.8367ms
+2025-05-18 10:58:00.935 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 10:58:00.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 44.8434ms
+2025-05-18 10:58:01.223 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 10:58:01.511 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:01.514 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 292.3765ms
+2025-05-18 10:58:01.525 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:01.596 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:58:02.093 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:58:02.469 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:58:02.810 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 1214.7047ms
+2025-05-18 10:58:02.833 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:58:02.843 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:02.846 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:02.850 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 16.8683ms
+2025-05-18 10:58:02.851 +02:00 [INF] Received HTTP response headers after 1281.945ms - 405
+2025-05-18 10:58:02.867 +02:00 [INF] End processing HTTP request after 1355.6981ms - 405
+2025-05-18 10:58:03.099 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 10:58:03.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 92.8768ms
+2025-05-18 10:58:05.436 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 10:58:05.436 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 10:58:05.516 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 79.0863ms
+2025-05-18 10:58:05.556 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 120.0876ms
+2025-05-18 10:58:05.854 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2025-05-18 10:58:05.900 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 46.0729ms
+2025-05-18 10:58:05.948 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2025-05-18 10:58:07.875 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:07.892 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:07.898 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:58:07.910 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:58:07.913 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:58:07.916 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 18.7694ms
+2025-05-18 10:58:07.927 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:58:07.936 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:07.940 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:07.943 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 15.968ms
+2025-05-18 10:58:07.943 +02:00 [INF] Received HTTP response headers after 47.8173ms - 405
+2025-05-18 10:58:07.956 +02:00 [INF] End processing HTTP request after 81.5008ms - 405
+2025-05-18 10:58:38.938 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 10:58:39.165 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:39.180 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:39.636 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 10:58:39.639 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 10:58:39.738 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 10:58:39.742 +02:00 [INF] Hosting environment: Development
+2025-05-18 10:58:39.745 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 10:58:40.220 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:58:40.359 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:58:40.606 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:58:40.701 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 494.5277ms
+2025-05-18 10:58:40.753 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:58:40.783 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:41.526 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:41.531 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 778.7675ms
+2025-05-18 10:58:41.594 +02:00 [INF] Received HTTP response headers after 2391.359ms - 405
+2025-05-18 10:58:41.605 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 10:58:41.610 +02:00 [INF] End processing HTTP request after 2456.8664ms - 405
+2025-05-18 10:58:41.921 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 323.6003ms
+2025-05-18 10:58:42.052 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 10:58:42.079 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 27.8426ms
+2025-05-18 10:58:42.364 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 10:58:42.490 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.916ms
+2025-05-18 10:58:43.766 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 10:58:43.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.5739ms
+2025-05-18 10:58:45.803 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 10:58:45.803 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 10:58:45.817 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 13.5766ms
+2025-05-18 10:58:45.930 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.8402ms
+2025-05-18 10:58:46.152 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2025-05-18 10:58:46.178 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 26.1741ms
+2025-05-18 10:58:46.187 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2025-05-18 10:58:46.649 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:46.653 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:46.659 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:58:46.669 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:58:46.673 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:58:46.677 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 17.9021ms
+2025-05-18 10:58:46.688 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:58:46.697 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:46.700 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:46.704 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 15.4375ms
+2025-05-18 10:58:46.705 +02:00 [INF] Received HTTP response headers after 48.1155ms - 405
+2025-05-18 10:58:46.722 +02:00 [INF] End processing HTTP request after 73.1913ms - 405
+2025-05-18 10:58:51.735 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:51.740 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:51.745 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:58:51.754 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:58:51.757 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:58:51.759 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 14.8606ms
+2025-05-18 10:58:51.768 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:58:51.774 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:51.776 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:51.779 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 11.0037ms
+2025-05-18 10:58:51.780 +02:00 [INF] Received HTTP response headers after 37.0608ms - 405
+2025-05-18 10:58:51.791 +02:00 [INF] End processing HTTP request after 56.2201ms - 405
+2025-05-18 10:58:51.998 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/site.html - null null
+2025-05-18 10:58:52.119 +02:00 [INF] Sending file. Request path: '/site.html'. Physical path: 'C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\wwwroot\site.html'
+2025-05-18 10:58:52.124 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/site.html - 200 null text/html 125.8642ms
+2025-05-18 10:58:52.129 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 10:58:52.129 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 10:58:52.139 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 10.8682ms
+2025-05-18 10:58:52.165 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2484ms
+2025-05-18 10:58:56.799 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:56.803 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:58:56.808 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:58:56.814 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:58:56.818 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:58:56.820 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 12.7ms
+2025-05-18 10:58:56.828 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:58:56.835 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:56.838 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:58:56.840 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 12.3901ms
+2025-05-18 10:58:56.841 +02:00 [INF] Received HTTP response headers after 34.4379ms - 405
+2025-05-18 10:58:56.852 +02:00 [INF] End processing HTTP request after 53.5077ms - 405
+2025-05-18 10:59:01.866 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:01.871 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:01.878 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:59:01.886 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:01.890 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:01.894 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 16.2818ms
+2025-05-18 10:59:01.904 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:59:01.912 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:01.916 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:01.921 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 16.8998ms
+2025-05-18 10:59:01.921 +02:00 [INF] Received HTTP response headers after 45.5496ms - 405
+2025-05-18 10:59:01.939 +02:00 [INF] End processing HTTP request after 72.2552ms - 405
+2025-05-18 10:59:05.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:05.524 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:05.527 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:05.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 13.4918ms
+2025-05-18 10:59:05.534 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:05.545 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:05.548 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:05.550 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 16.9365ms
+2025-05-18 10:59:06.948 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:06.954 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:06.958 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:59:06.966 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:06.970 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:06.974 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 15.3502ms
+2025-05-18 10:59:06.984 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:59:06.993 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:06.996 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:07.000 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 15.5224ms
+2025-05-18 10:59:07.000 +02:00 [INF] Received HTTP response headers after 43.5169ms - 405
+2025-05-18 10:59:07.012 +02:00 [INF] End processing HTTP request after 64.3316ms - 405
+2025-05-18 10:59:08.849 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:08.857 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:08.859 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:08.863 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 13.9501ms
+2025-05-18 10:59:08.867 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:08.881 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:08.883 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:08.885 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 19.0333ms
+2025-05-18 10:59:12.016 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:12.022 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:12.027 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:59:12.035 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:12.038 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:12.041 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 14.3872ms
+2025-05-18 10:59:12.051 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:59:12.056 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:12.059 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:12.062 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 11.269ms
+2025-05-18 10:59:12.063 +02:00 [INF] Received HTTP response headers after 37.206ms - 405
+2025-05-18 10:59:12.076 +02:00 [INF] End processing HTTP request after 60.1847ms - 405
+2025-05-18 10:59:12.796 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 10:59:12.804 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:12.807 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:12.810 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 302 0 null 13.8857ms
+2025-05-18 10:59:12.814 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - null null
+2025-05-18 10:59:12.825 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:12.827 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:12.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - 405 0 null 18.3626ms
+2025-05-18 10:59:13.302 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 10:59:13.309 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:13.311 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:13.314 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 302 0 null 12.0913ms
+2025-05-18 10:59:13.318 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - null null
+2025-05-18 10:59:13.331 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:13.334 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:13.336 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - 405 0 null 19.2606ms
+2025-05-18 10:59:13.470 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 10:59:13.477 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:13.481 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:13.485 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 302 0 null 15.0483ms
+2025-05-18 10:59:13.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - null null
+2025-05-18 10:59:13.509 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:13.512 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:13.516 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - 405 0 null 27.7737ms
+2025-05-18 10:59:13.844 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:13.851 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:13.855 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:13.859 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 15.2687ms
+2025-05-18 10:59:13.862 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:13.874 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:13.877 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:13.879 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 17.1287ms
+2025-05-18 10:59:14.005 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:14.015 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:14.017 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:14.020 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 15.2919ms
+2025-05-18 10:59:14.023 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:14.037 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.039 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.043 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 20.0234ms
+2025-05-18 10:59:14.166 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:14.174 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:14.177 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:14.180 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 14.8279ms
+2025-05-18 10:59:14.184 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:14.197 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.200 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.202 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 18.8719ms
+2025-05-18 10:59:14.341 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:14.348 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:14.352 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:14.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 15.4855ms
+2025-05-18 10:59:14.359 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:14.379 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.382 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.388 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 29.5962ms
+2025-05-18 10:59:14.693 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 10:59:14.702 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:14.706 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:14.708 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 302 0 null 15.8646ms
+2025-05-18 10:59:14.712 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - null null
+2025-05-18 10:59:14.728 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.730 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.733 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - 405 0 null 20.971ms
+2025-05-18 10:59:14.839 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 10:59:14.847 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:14.850 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:14.855 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 302 0 null 15.5618ms
+2025-05-18 10:59:14.858 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - null null
+2025-05-18 10:59:14.870 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.872 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:14.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - 405 0 null 17.2337ms
+2025-05-18 10:59:15.007 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 10:59:15.015 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:15.028 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:15.033 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 302 0 null 25.496ms
+2025-05-18 10:59:15.037 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - null null
+2025-05-18 10:59:15.053 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:15.056 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:15.062 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fstop - 405 0 null 25.5859ms
+2025-05-18 10:59:15.337 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:15.344 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:15.348 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:15.352 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 15.7128ms
+2025-05-18 10:59:15.355 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:15.368 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:15.371 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:15.374 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 18.6284ms
+2025-05-18 10:59:17.091 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:17.096 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:17.102 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:59:17.111 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:17.115 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:17.119 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 16.993ms
+2025-05-18 10:59:17.129 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:59:17.136 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:17.140 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:17.142 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 12.9802ms
+2025-05-18 10:59:17.143 +02:00 [INF] Received HTTP response headers after 42.5376ms - 405
+2025-05-18 10:59:17.154 +02:00 [INF] End processing HTTP request after 63.0521ms - 405
+2025-05-18 10:59:20.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 10:59:20.593 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:20.597 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:20.602 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 302 0 null 22.5905ms
+2025-05-18 10:59:20.609 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:20.625 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:20.629 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:20.632 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 23.4813ms
+2025-05-18 10:59:22.171 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:22.176 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:22.181 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:59:22.186 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:22.191 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:22.194 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 13.2896ms
+2025-05-18 10:59:22.202 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:59:22.210 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:22.216 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:22.221 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 19.4386ms
+2025-05-18 10:59:22.222 +02:00 [INF] Received HTTP response headers after 42.3359ms - 405
+2025-05-18 10:59:22.244 +02:00 [INF] End processing HTTP request after 73.1658ms - 405
+2025-05-18 10:59:24.444 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - null null
+2025-05-18 10:59:24.457 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:24.460 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:24.465 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fsse%2Fsse - 405 0 null 20.9866ms
+2025-05-18 10:59:27.259 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:27.264 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 10:59:27.269 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 10:59:27.275 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 10:59:27.278 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 10:59:27.280 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 11.7721ms
+2025-05-18 10:59:27.287 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 10:59:27.294 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:27.297 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 10:59:27.299 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 11.9846ms
+2025-05-18 10:59:27.300 +02:00 [INF] Received HTTP response headers after 32.5739ms - 405
+2025-05-18 10:59:27.310 +02:00 [INF] End processing HTTP request after 51.0464ms - 405
+2025-05-18 11:01:26.333 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 11:01:26.633 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:26.642 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:27.127 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 11:01:27.131 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 11:01:27.515 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 11:01:27.519 +02:00 [INF] Hosting environment: Development
+2025-05-18 11:01:27.521 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 11:01:27.635 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:01:27.833 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:01:28.037 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:01:28.782 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 11:01:28.879 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 1269.8611ms
+2025-05-18 11:01:28.965 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:01:28.982 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:28.987 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:28.992 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 27.1614ms
+2025-05-18 11:01:29.000 +02:00 [INF] Received HTTP response headers after 2348.9462ms - 405
+2025-05-18 11:01:29.007 +02:00 [INF] End processing HTTP request after 2387.5096ms - 405
+2025-05-18 11:01:29.176 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 394.0729ms
+2025-05-18 11:01:29.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:01:29.449 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 27.1555ms
+2025-05-18 11:01:29.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:01:29.878 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 116.9365ms
+2025-05-18 11:01:31.255 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 11:01:31.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.6742ms
+2025-05-18 11:01:34.032 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:34.036 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:34.041 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:01:34.051 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:01:34.055 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:01:34.058 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 17.3454ms
+2025-05-18 11:01:34.067 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:01:34.072 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:34.074 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:34.078 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 11.2896ms
+2025-05-18 11:01:34.078 +02:00 [INF] Received HTTP response headers after 39.6258ms - 405
+2025-05-18 11:01:34.089 +02:00 [INF] End processing HTTP request after 57.088ms - 405
+2025-05-18 11:01:35.635 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/sіте.html - null null
+2025-05-18 11:01:35.668 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/sіте.html - 404 0 null 34.0102ms
+2025-05-18 11:01:35.679 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/s%D1%96%D1%82%D0%B5.html, Response status code: 404
+2025-05-18 11:01:39.091 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:01:39.091 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:01:39.100 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:39.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 10.2909ms
+2025-05-18 11:01:39.111 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:39.128 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:01:39.142 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.364ms
+2025-05-18 11:01:39.144 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:01:39.155 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:01:39.158 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 30.5111ms
+2025-05-18 11:01:39.168 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:01:39.175 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:39.179 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:39.182 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 14.3171ms
+2025-05-18 11:01:39.182 +02:00 [INF] Received HTTP response headers after 56.6971ms - 405
+2025-05-18 11:01:39.194 +02:00 [INF] End processing HTTP request after 94.236ms - 405
+2025-05-18 11:01:40.341 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2025-05-18 11:01:40.353 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 11.7762ms
+2025-05-18 11:01:40.363 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2025-05-18 11:01:44.209 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:44.214 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:01:44.219 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:01:44.228 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:01:44.231 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:01:44.236 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 16.7444ms
+2025-05-18 11:01:44.248 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:01:44.258 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:44.261 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:01:44.264 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 16.4462ms
+2025-05-18 11:01:44.265 +02:00 [INF] Received HTTP response headers after 47.0321ms - 405
+2025-05-18 11:01:44.276 +02:00 [INF] End processing HTTP request after 67.3095ms - 405
+2025-05-18 11:02:40.309 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 11:02:40.592 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:40.601 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:41.082 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 11:02:41.086 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 11:02:41.423 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 11:02:41.424 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:02:41.426 +02:00 [INF] Hosting environment: Development
+2025-05-18 11:02:41.434 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 11:02:42.126 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:02:43.484 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:02:43.497 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 2088.0275ms
+2025-05-18 11:02:43.519 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 11:02:43.524 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:02:43.546 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:43.558 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:43.566 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 40.7424ms
+2025-05-18 11:02:43.577 +02:00 [INF] Received HTTP response headers after 2966.4505ms - 405
+2025-05-18 11:02:43.585 +02:00 [INF] End processing HTTP request after 3003.286ms - 405
+2025-05-18 11:02:43.793 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 274.3436ms
+2025-05-18 11:02:43.824 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:02:43.848 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 24.2128ms
+2025-05-18 11:02:44.164 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:02:44.344 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 180.6034ms
+2025-05-18 11:02:45.561 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 11:02:45.625 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.92ms
+2025-05-18 11:02:47.847 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/ssss.html - null null
+2025-05-18 11:02:47.968 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:02:47.969 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:02:47.973 +02:00 [INF] Sending file. Request path: '/ssss.html'. Physical path: 'C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\wwwroot\ssss.html'
+2025-05-18 11:02:47.996 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 28.2792ms
+2025-05-18 11:02:48.000 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/ssss.html - 200 null text/html 156.6709ms
+2025-05-18 11:02:48.044 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.4002ms
+2025-05-18 11:02:48.386 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2025-05-18 11:02:48.403 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 17.0338ms
+2025-05-18 11:02:48.418 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2025-05-18 11:02:48.616 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:48.622 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:48.627 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:02:48.637 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:02:48.642 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:02:48.647 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 20.2709ms
+2025-05-18 11:02:48.656 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:02:48.662 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:48.665 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:48.669 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 12.9023ms
+2025-05-18 11:02:48.669 +02:00 [INF] Received HTTP response headers after 44.4237ms - 405
+2025-05-18 11:02:48.687 +02:00 [INF] End processing HTTP request after 70.3545ms - 405
+2025-05-18 11:02:53.704 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:53.708 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:53.714 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:02:53.725 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:02:53.729 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:02:53.732 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 18.2959ms
+2025-05-18 11:02:53.740 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:02:53.746 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:53.748 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:53.751 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 10.6071ms
+2025-05-18 11:02:53.751 +02:00 [INF] Received HTTP response headers after 39.0784ms - 405
+2025-05-18 11:02:53.761 +02:00 [INF] End processing HTTP request after 57.6345ms - 405
+2025-05-18 11:02:58.764 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:58.769 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:02:58.773 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:02:58.779 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:02:58.783 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:02:58.787 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 13.5765ms
+2025-05-18 11:02:58.795 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:02:58.801 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:58.803 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:02:58.806 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 10.9222ms
+2025-05-18 11:02:58.807 +02:00 [INF] Received HTTP response headers after 34.9072ms - 405
+2025-05-18 11:02:58.817 +02:00 [INF] End processing HTTP request after 52.6458ms - 405
+2025-05-18 11:02:59.792 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/login - application/x-www-form-urlencoded 28
+2025-05-18 11:02:59.800 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:02:59.859 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:02:59.911 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-18 11:02:59.922 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:02:59.934 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi) in 61.9563ms
+2025-05-18 11:02:59.940 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:02:59.943 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/login - 200 null text/plain; charset=utf-8 150.7971ms
+2025-05-18 11:03:03.824 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:03.829 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:03.834 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:03.840 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:03.848 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:03.852 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 18.1201ms
+2025-05-18 11:03:03.863 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:03.868 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:03.870 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:03.875 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 12.1151ms
+2025-05-18 11:03:03.875 +02:00 [INF] Received HTTP response headers after 43.5371ms - 405
+2025-05-18 11:03:03.886 +02:00 [INF] End processing HTTP request after 62.1358ms - 405
+2025-05-18 11:03:07.730 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 11:03:07.743 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:07.761 +02:00 [INF] Route matched with {action = "GetSse", controller = "SSE"}. Executing controller action with signature System.Threading.Tasks.Task GetSse(System.Threading.CancellationToken) on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:03:08.111 +02:00 [INF] GET /api/sse/sse
+2025-05-18 11:03:08.906 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:08.910 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:08.915 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:08.935 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:08.939 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:08.943 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 27.5711ms
+2025-05-18 11:03:08.950 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:08.956 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:08.960 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:08.962 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 12.6175ms
+2025-05-18 11:03:08.963 +02:00 [INF] Received HTTP response headers after 49.055ms - 405
+2025-05-18 11:03:08.974 +02:00 [INF] End processing HTTP request after 68.4839ms - 405
+2025-05-18 11:03:10.180 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 11:03:10.190 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:10.194 +02:00 [INF] Route matched with {action = "GetSse", controller = "SSE"}. Executing controller action with signature System.Threading.Tasks.Task GetSse(System.Threading.CancellationToken) on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:03:10.206 +02:00 [INF] GET /api/sse/sse
+2025-05-18 11:03:10.355 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 11:03:10.364 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:10.370 +02:00 [INF] Route matched with {action = "GetSse", controller = "SSE"}. Executing controller action with signature System.Threading.Tasks.Task GetSse(System.Threading.CancellationToken) on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:03:10.385 +02:00 [INF] GET /api/sse/sse
+2025-05-18 11:03:10.521 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 11:03:10.529 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:10.532 +02:00 [INF] Route matched with {action = "GetSse", controller = "SSE"}. Executing controller action with signature System.Threading.Tasks.Task GetSse(System.Threading.CancellationToken) on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:03:10.537 +02:00 [INF] GET /api/sse/sse
+2025-05-18 11:03:10.721 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 11:03:10.743 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:10.747 +02:00 [INF] Route matched with {action = "GetSse", controller = "SSE"}. Executing controller action with signature System.Threading.Tasks.Task GetSse(System.Threading.CancellationToken) on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:03:10.753 +02:00 [INF] GET /api/sse/sse
+2025-05-18 11:03:12.424 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:12.424 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:12.424 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:12.424 +02:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:12.424 +02:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:12.569 +02:00 [WRN] One or more of the following response headers have been removed because they are invalid for HTTP/2 and HTTP/3 responses: 'Connection', 'Transfer-Encoding', 'Keep-Alive', 'Upgrade' and 'Proxy-Connection'.
+2025-05-18 11:03:12.569 +02:00 [WRN] One or more of the following response headers have been removed because they are invalid for HTTP/2 and HTTP/3 responses: 'Connection', 'Transfer-Encoding', 'Keep-Alive', 'Upgrade' and 'Proxy-Connection'.
+2025-05-18 11:03:12.569 +02:00 [WRN] One or more of the following response headers have been removed because they are invalid for HTTP/2 and HTTP/3 responses: 'Connection', 'Transfer-Encoding', 'Keep-Alive', 'Upgrade' and 'Proxy-Connection'.
+2025-05-18 11:03:12.569 +02:00 [WRN] One or more of the following response headers have been removed because they are invalid for HTTP/2 and HTTP/3 responses: 'Connection', 'Transfer-Encoding', 'Keep-Alive', 'Upgrade' and 'Proxy-Connection'.
+2025-05-18 11:03:12.569 +02:00 [WRN] One or more of the following response headers have been removed because they are invalid for HTTP/2 and HTTP/3 responses: 'Connection', 'Transfer-Encoding', 'Keep-Alive', 'Upgrade' and 'Proxy-Connection'.
+2025-05-18 11:03:13.985 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi) in 3604.2758ms
+2025-05-18 11:03:13.985 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:14.023 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi) in 3484.5249ms
+2025-05-18 11:03:14.163 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi) in 6395.4732ms
+2025-05-18 11:03:14.296 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi) in 4091.8105ms
+2025-05-18 11:03:14.425 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:14.526 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:14.623 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:14.320 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:14.197 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:15.147 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:15.286 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:15.344 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:15.387 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 239.8806ms
+2025-05-18 11:03:15.412 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:15.418 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 200 null text/event-stream 5063.2151ms
+2025-05-18 11:03:15.418 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 200 null text/event-stream 7688.367ms
+2025-05-18 11:03:15.418 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 200 null text/event-stream 5238.6149ms
+2025-05-18 11:03:15.418 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 200 null text/event-stream 4897.3526ms
+2025-05-18 11:03:15.419 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:15.452 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:15.455 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 42.9515ms
+2025-05-18 11:03:15.455 +02:00 [INF] Received HTTP response headers after 535.3235ms - 405
+2025-05-18 11:03:15.465 +02:00 [INF] End processing HTTP request after 1480.369ms - 405
+2025-05-18 11:03:17.921 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:20.482 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:20.486 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:20.492 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:20.500 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:20.504 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:20.507 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 14.9827ms
+2025-05-18 11:03:20.516 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:20.523 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:20.525 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:20.528 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 11.8125ms
+2025-05-18 11:03:20.528 +02:00 [INF] Received HTTP response headers after 38.2666ms - 405
+2025-05-18 11:03:20.542 +02:00 [INF] End processing HTTP request after 59.5527ms - 405
+2025-05-18 11:03:22.945 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:25.549 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:25.553 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:25.558 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:25.566 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:25.569 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:25.572 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 14.3696ms
+2025-05-18 11:03:25.586 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:25.594 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:25.599 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:25.603 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 17.7286ms
+2025-05-18 11:03:25.604 +02:00 [INF] Received HTTP response headers after 47.1389ms - 405
+2025-05-18 11:03:25.615 +02:00 [INF] End processing HTTP request after 65.4504ms - 405
+2025-05-18 11:03:27.959 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:03:29.071 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 11:03:29.363 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi)'
+2025-05-18 11:03:29.494 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi) in 18742.0246ms
+2025-05-18 11:03:29.499 +02:00 [INF] Route matched with {action = "StopStream", controller = "SSE"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopStream() on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:03:29.634 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:03:29.639 +02:00 [INF] Стрим завершено
+2025-05-18 11:03:30.099 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 200 null text/event-stream 19380.2735ms
+2025-05-18 11:03:30.103 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-05-18 11:03:30.111 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi) in 472.7411ms
+2025-05-18 11:03:30.116 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi)'
+2025-05-18 11:03:30.122 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 200 0 null 1050.4196ms
+2025-05-18 11:03:30.629 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:30.634 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:30.638 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:30.644 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:30.648 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:30.652 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 13.951ms
+2025-05-18 11:03:30.660 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:30.666 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:30.668 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:30.672 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 11.9962ms
+2025-05-18 11:03:30.672 +02:00 [INF] Received HTTP response headers after 35.3036ms - 405
+2025-05-18 11:03:30.683 +02:00 [INF] End processing HTTP request after 54.4427ms - 405
+2025-05-18 11:03:35.693 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:35.699 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:35.703 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:35.711 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:35.715 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:35.718 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 15.5961ms
+2025-05-18 11:03:35.730 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:35.738 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:35.742 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:35.746 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 16.4467ms
+2025-05-18 11:03:35.747 +02:00 [INF] Received HTTP response headers after 45.4217ms - 405
+2025-05-18 11:03:35.760 +02:00 [INF] End processing HTTP request after 66.4323ms - 405
+2025-05-18 11:03:40.775 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:40.780 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:40.784 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:40.790 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:40.794 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:40.797 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 13.306ms
+2025-05-18 11:03:40.804 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:40.811 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:40.814 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:40.817 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 12.9499ms
+2025-05-18 11:03:40.817 +02:00 [INF] Received HTTP response headers after 34.7129ms - 405
+2025-05-18 11:03:40.830 +02:00 [INF] End processing HTTP request after 54.7211ms - 405
+2025-05-18 11:03:45.842 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:45.846 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:45.854 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:45.864 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:45.868 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:45.872 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 18.4331ms
+2025-05-18 11:03:45.882 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:45.889 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:45.893 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:45.896 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 14.6404ms
+2025-05-18 11:03:45.897 +02:00 [INF] Received HTTP response headers after 44.8927ms - 405
+2025-05-18 11:03:45.908 +02:00 [INF] End processing HTTP request after 66.34ms - 405
+2025-05-18 11:03:50.916 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:50.921 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:50.925 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:50.932 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:50.935 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:50.937 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 12.3927ms
+2025-05-18 11:03:50.945 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:50.951 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:50.953 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:50.956 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 11.1477ms
+2025-05-18 11:03:50.956 +02:00 [INF] Received HTTP response headers after 32.4478ms - 405
+2025-05-18 11:03:50.968 +02:00 [INF] End processing HTTP request after 51.4395ms - 405
+2025-05-18 11:03:55.973 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:55.978 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:03:55.982 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:03:55.990 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:03:55.993 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:03:55.997 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 15.0498ms
+2025-05-18 11:03:56.006 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:03:56.014 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:56.017 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:03:56.021 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 15.204ms
+2025-05-18 11:03:56.021 +02:00 [INF] Received HTTP response headers after 40.8446ms - 405
+2025-05-18 11:03:56.032 +02:00 [INF] End processing HTTP request after 59.806ms - 405
+2025-05-18 11:05:42.052 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 11:05:42.373 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:05:42.387 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:05:42.878 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 11:05:42.882 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 11:05:43.304 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 11:05:43.307 +02:00 [INF] Hosting environment: Development
+2025-05-18 11:05:43.309 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 11:05:43.372 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:05:43.501 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:05:43.586 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:05:43.602 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 245.5814ms
+2025-05-18 11:05:43.956 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:05:44.026 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:44.075 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:45.457 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 1471.9658ms
+2025-05-18 11:05:45.907 +02:00 [INF] Received HTTP response headers after 3177.5509ms - 405
+2025-05-18 11:05:45.975 +02:00 [INF] End processing HTTP request after 3614.6127ms - 405
+2025-05-18 11:05:46.004 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 11:05:46.232 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 229.2044ms
+2025-05-18 11:05:46.272 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:05:46.292 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 20.2613ms
+2025-05-18 11:05:46.500 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:05:46.621 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.6282ms
+2025-05-18 11:05:47.726 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 11:05:47.790 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.905ms
+2025-05-18 11:05:51.008 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:05:51.014 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:05:51.019 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:05:51.032 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:05:51.039 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:05:51.044 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 24.6085ms
+2025-05-18 11:05:51.052 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:05:51.061 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:51.064 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:51.067 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 14.9141ms
+2025-05-18 11:05:51.068 +02:00 [INF] Received HTTP response headers after 50.162ms - 405
+2025-05-18 11:05:51.080 +02:00 [INF] End processing HTTP request after 71.7282ms - 405
+2025-05-18 11:05:56.097 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:05:56.103 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:05:56.108 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:05:56.119 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:05:56.122 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:05:56.125 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 17.6751ms
+2025-05-18 11:05:56.138 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:05:56.148 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:56.153 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:56.156 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 17.5331ms
+2025-05-18 11:05:56.156 +02:00 [INF] Received HTTP response headers after 50.5589ms - 405
+2025-05-18 11:05:56.173 +02:00 [INF] End processing HTTP request after 75.6272ms - 405
+2025-05-18 11:05:57.217 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Measurements - null null
+2025-05-18 11:05:57.227 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:05:57.231 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:05:57.235 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Measurements - 302 0 null 19.0967ms
+2025-05-18 11:05:57.240 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2FMeasurements - null null
+2025-05-18 11:05:57.249 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:57.253 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:05:57.255 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2FMeasurements - 405 0 null 15.503ms
+2025-05-18 11:06:01.189 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:01.194 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:01.198 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:01.205 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:01.208 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:01.211 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 13.2489ms
+2025-05-18 11:06:01.220 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:01.230 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:01.238 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:01.244 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 24.0647ms
+2025-05-18 11:06:01.245 +02:00 [INF] Received HTTP response headers after 48.1621ms - 405
+2025-05-18 11:06:01.262 +02:00 [INF] End processing HTTP request after 73.4823ms - 405
+2025-05-18 11:06:06.273 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:06.279 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:06.288 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:06.297 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:06.301 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:06.306 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 17.8524ms
+2025-05-18 11:06:06.315 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:06.324 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:06.332 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:06.337 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 21.5248ms
+2025-05-18 11:06:06.338 +02:00 [INF] Received HTTP response headers after 51.958ms - 405
+2025-05-18 11:06:06.355 +02:00 [INF] End processing HTTP request after 81.6442ms - 405
+2025-05-18 11:06:11.360 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:11.364 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:11.370 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:11.377 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:11.380 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:11.383 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 12.8513ms
+2025-05-18 11:06:11.392 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:11.400 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:11.404 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:11.413 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 20.5071ms
+2025-05-18 11:06:11.413 +02:00 [INF] Received HTTP response headers after 44.8282ms - 405
+2025-05-18 11:06:11.437 +02:00 [INF] End processing HTTP request after 76.9469ms - 405
+2025-05-18 11:06:16.450 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:16.454 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:16.459 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:16.468 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:16.473 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:16.476 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 17.1517ms
+2025-05-18 11:06:16.488 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:16.493 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:16.495 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:16.499 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 10.897ms
+2025-05-18 11:06:16.499 +02:00 [INF] Received HTTP response headers after 40.8949ms - 405
+2025-05-18 11:06:16.510 +02:00 [INF] End processing HTTP request after 59.793ms - 405
+2025-05-18 11:06:21.519 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:21.524 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:21.530 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:21.539 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:21.543 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:21.547 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 16.8568ms
+2025-05-18 11:06:21.558 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:21.573 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:21.579 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:21.584 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 25.6897ms
+2025-05-18 11:06:21.585 +02:00 [INF] Received HTTP response headers after 56.9422ms - 405
+2025-05-18 11:06:21.603 +02:00 [INF] End processing HTTP request after 83.9205ms - 405
+2025-05-18 11:06:21.856 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/login - multipart/form-data; boundary=----WebKitFormBoundarydwsPZxN0fgfAxdXi 243
+2025-05-18 11:06:21.867 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:06:21.917 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:06:21.978 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-18 11:06:21.987 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:06:22.001 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi) in 68.9137ms
+2025-05-18 11:06:22.011 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:06:22.015 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/login - 200 null text/plain; charset=utf-8 159.3317ms
+2025-05-18 11:06:26.613 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:26.618 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:26.623 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:26.631 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:26.634 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:26.636 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 13.3772ms
+2025-05-18 11:06:26.644 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:26.651 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:26.653 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:26.655 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 10.953ms
+2025-05-18 11:06:26.656 +02:00 [INF] Received HTTP response headers after 34.4992ms - 405
+2025-05-18 11:06:26.669 +02:00 [INF] End processing HTTP request after 55.9679ms - 405
+2025-05-18 11:06:27.427 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/Measurements - null null
+2025-05-18 11:06:27.441 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.GetMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:06:27.455 +02:00 [INF] Route matched with {action = "GetMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetMeasurement() on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:06:29.639 +02:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+2025-05-18 11:06:29.768 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[DeviceMeasurementsApi.Models.Measurement, DeviceMeasurementsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-05-18 11:06:29.802 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.GetMeasurement (DeviceMeasurementsApi) in 2335.4346ms
+2025-05-18 11:06:29.808 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.GetMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:06:29.827 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/Measurements - 200 null application/json; charset=utf-8 2400.9733ms
+2025-05-18 11:06:31.673 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:31.680 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:31.714 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:31.772 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:31.778 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:31.782 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 67.5996ms
+2025-05-18 11:06:31.790 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:31.802 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:31.810 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:31.818 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 27.6779ms
+2025-05-18 11:06:31.818 +02:00 [INF] Received HTTP response headers after 134.2442ms - 405
+2025-05-18 11:06:31.839 +02:00 [INF] End processing HTTP request after 166.2069ms - 405
+2025-05-18 11:06:36.849 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:36.852 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:36.858 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:36.866 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:36.869 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:36.871 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 13.8496ms
+2025-05-18 11:06:36.884 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:36.889 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:36.892 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:36.898 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 13.9708ms
+2025-05-18 11:06:36.898 +02:00 [INF] Received HTTP response headers after 42.5402ms - 405
+2025-05-18 11:06:36.909 +02:00 [INF] End processing HTTP request after 60.366ms - 405
+2025-05-18 11:06:41.924 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:41.930 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:41.936 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:41.943 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:41.945 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:41.948 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 12.5123ms
+2025-05-18 11:06:41.958 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:41.964 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:41.966 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:41.969 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 10.7153ms
+2025-05-18 11:06:41.969 +02:00 [INF] Received HTTP response headers after 35.0833ms - 405
+2025-05-18 11:06:41.981 +02:00 [INF] End processing HTTP request after 57.2313ms - 405
+2025-05-18 11:06:46.997 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:47.003 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:06:47.007 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:06:47.014 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 11:06:47.016 +02:00 [INF] AuthenticationScheme: Cookies was challenged.
+2025-05-18 11:06:47.020 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 302 0 null 12.7254ms
+2025-05-18 11:06:47.029 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - null null
+2025-05-18 11:06:47.038 +02:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:47.040 +02:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-05-18 11:06:47.043 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7031/login?ReturnUrl=%2Fapi%2Fmeasurements - 405 0 null 13.5166ms
+2025-05-18 11:06:47.043 +02:00 [INF] Received HTTP response headers after 36.8129ms - 405
+2025-05-18 11:06:47.055 +02:00 [INF] End processing HTTP request after 57.6672ms - 405
+2025-05-18 11:22:38.768 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 11:22:39.020 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:22:39.031 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:22:39.562 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 11:22:39.566 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 11:22:40.913 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:22:41.173 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 11:22:41.882 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 11:22:41.932 +02:00 [INF] Hosting environment: Development
+2025-05-18 11:22:42.000 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 11:22:42.133 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:22:42.222 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:22:42.460 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 605.3447ms
+2025-05-18 11:22:42.501 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:22:42.569 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 67.6634ms
+2025-05-18 11:22:42.807 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:22:42.930 +02:00 [INF] POST /api/measurements
+2025-05-18 11:22:42.948 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 140.5436ms
+2025-05-18 11:22:44.356 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 11:22:44.546 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.5432ms
+2025-05-18 11:22:46.302 +02:00 [INF] Executed DbCommand (171ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:22:46.461 +02:00 [INF] Вимірювання 388 збережено у БД
+2025-05-18 11:22:46.480 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:22:46.572 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 4334.8529ms
+2025-05-18 11:22:46.573 +02:00 [INF] Received HTTP response headers after 7531.2183ms - 201
+2025-05-18 11:22:46.591 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:22:46.597 +02:00 [INF] End processing HTTP request after 7590.653ms - 201
+2025-05-18 11:22:46.618 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 5731.08ms
+2025-05-18 11:22:48.873 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/ssss.html - null null
+2025-05-18 11:22:48.917 +02:00 [INF] The file /ssss.html was not modified
+2025-05-18 11:22:48.922 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/ssss.html - 304 null text/html 51.4186ms
+2025-05-18 11:22:48.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:22:48.984 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:22:49.004 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 20.08ms
+2025-05-18 11:22:49.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.9318ms
+2025-05-18 11:22:49.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2025-05-18 11:22:49.338 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 11.3981ms
+2025-05-18 11:22:49.349 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2025-05-18 11:22:51.612 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:22:51.619 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:22:51.629 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:22:51.644 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:22:51.651 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:22:51.662 +02:00 [INF] POST /api/measurements
+2025-05-18 11:22:51.780 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:22:51.790 +02:00 [INF] Вимірювання 389 збережено у БД
+2025-05-18 11:22:51.793 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:22:51.799 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 140.1524ms
+2025-05-18 11:22:51.799 +02:00 [INF] Received HTTP response headers after 173.3569ms - 201
+2025-05-18 11:22:51.803 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:22:51.807 +02:00 [INF] End processing HTTP request after 194.3814ms - 201
+2025-05-18 11:22:51.810 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 180.7589ms
+2025-05-18 11:22:56.737 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/login - application/x-www-form-urlencoded 28
+2025-05-18 11:22:56.746 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:22:56.760 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:22:56.792 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-18 11:22:56.798 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:22:56.802 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi) in 35.7143ms
+2025-05-18 11:22:56.807 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:22:56.811 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/login - 200 null text/plain; charset=utf-8 74.7156ms
+2025-05-18 11:22:56.814 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:22:56.826 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:22:56.831 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:22:56.839 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:22:56.843 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:22:56.854 +02:00 [INF] POST /api/measurements
+2025-05-18 11:22:56.882 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:22:56.896 +02:00 [INF] Вимірювання 390 збережено у БД
+2025-05-18 11:22:56.899 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:22:56.905 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 55.812ms
+2025-05-18 11:22:56.906 +02:00 [INF] Received HTTP response headers after 77.5226ms - 201
+2025-05-18 11:22:56.911 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:22:56.916 +02:00 [INF] End processing HTTP request after 102.6829ms - 201
+2025-05-18 11:22:56.920 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 89.1221ms
+2025-05-18 11:23:01.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 11:23:01.324 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:23:01.335 +02:00 [INF] Route matched with {action = "GetSse", controller = "SSE"}. Executing controller action with signature System.Threading.Tasks.Task GetSse(System.Threading.CancellationToken) on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:23:01.361 +02:00 [INF] GET /api/sse/sse
+2025-05-18 11:23:01.908 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:23:01.937 +02:00 [WRN] One or more of the following response headers have been removed because they are invalid for HTTP/2 and HTTP/3 responses: 'Connection', 'Transfer-Encoding', 'Keep-Alive', 'Upgrade' and 'Proxy-Connection'.
+2025-05-18 11:23:01.940 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:23:01.945 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:23:01.951 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:23:01.959 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:23:01.964 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:23:01.972 +02:00 [INF] POST /api/measurements
+2025-05-18 11:23:01.978 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:23:01.986 +02:00 [INF] Вимірювання 391 збережено у БД
+2025-05-18 11:23:01.988 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:23:01.992 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 21.5333ms
+2025-05-18 11:23:01.992 +02:00 [INF] Received HTTP response headers after 43.4136ms - 201
+2025-05-18 11:23:01.996 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:23:02.000 +02:00 [INF] End processing HTTP request after 59.6733ms - 201
+2025-05-18 11:23:02.004 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 52.7011ms
+2025-05-18 11:23:06.954 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:23:07.011 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:23:07.017 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:23:07.023 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:23:07.030 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:23:07.034 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:23:07.040 +02:00 [INF] POST /api/measurements
+2025-05-18 11:23:07.045 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:23:07.055 +02:00 [INF] Вимірювання 392 збережено у БД
+2025-05-18 11:23:07.056 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:23:07.060 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 21.5163ms
+2025-05-18 11:23:07.061 +02:00 [INF] Received HTTP response headers after 39.6037ms - 201
+2025-05-18 11:23:07.063 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:23:07.067 +02:00 [INF] End processing HTTP request after 56.0974ms - 201
+2025-05-18 11:23:07.070 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 47.2047ms
+2025-05-18 11:23:11.965 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:23:12.088 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:23:12.093 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:23:12.098 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:23:12.104 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:23:12.107 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:23:12.113 +02:00 [INF] POST /api/measurements
+2025-05-18 11:23:12.118 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:23:12.127 +02:00 [INF] Вимірювання 393 збережено у БД
+2025-05-18 11:23:12.129 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:23:12.133 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 20.4678ms
+2025-05-18 11:23:12.133 +02:00 [INF] Received HTTP response headers after 36.8184ms - 201
+2025-05-18 11:23:12.138 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:23:12.142 +02:00 [INF] End processing HTTP request after 53.5899ms - 201
+2025-05-18 11:23:12.145 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 47.1763ms
+2025-05-18 11:23:14.403 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 11:23:14.570 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi)'
+2025-05-18 11:23:14.659 +02:00 [INF] Route matched with {action = "StopStream", controller = "SSE"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopStream() on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:23:14.873 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi) in 13531.1009ms
+2025-05-18 11:23:14.873 +02:00 [INF] Стрим завершено
+2025-05-18 11:23:15.014 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:23:15.016 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-05-18 11:23:15.102 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi) in 254.5339ms
+2025-05-18 11:23:15.255 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi)'
+2025-05-18 11:23:15.360 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 200 0 null 957.8145ms
+2025-05-18 11:23:15.515 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 200 null text/event-stream 14210.0691ms
+2025-05-18 11:27:16.210 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 11:27:16.523 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:16.535 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:17.048 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 11:27:17.052 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 11:27:17.868 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 11:27:18.784 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:27:19.465 +02:00 [INF] Hosting environment: Development
+2025-05-18 11:27:19.549 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 11:27:19.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 11:27:19.660 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:19.755 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:27:20.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 533.2149ms
+2025-05-18 11:27:20.510 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:27:20.510 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:27:20.640 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 130.6187ms
+2025-05-18 11:27:20.804 +02:00 [INF] POST /api/measurements
+2025-05-18 11:27:20.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 363.721ms
+2025-05-18 11:27:22.153 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 11:27:22.344 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 192.0341ms
+2025-05-18 11:27:24.378 +02:00 [INF] Executed DbCommand (106ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:27:24.479 +02:00 [INF] Вимірювання 394 збережено у БД
+2025-05-18 11:27:24.499 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:27:24.585 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 4808.1646ms
+2025-05-18 11:27:24.586 +02:00 [INF] Received HTTP response headers after 8040.6683ms - 201
+2025-05-18 11:27:24.598 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:24.608 +02:00 [INF] End processing HTTP request after 8101.0422ms - 201
+2025-05-18 11:27:24.631 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/ssss.html - null null
+2025-05-18 11:27:24.641 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 5890.6689ms
+2025-05-18 11:27:24.883 +02:00 [INF] Sending file. Request path: '/ssss.html'. Physical path: 'C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\wwwroot\ssss.html'
+2025-05-18 11:27:24.889 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/ssss.html - 200 null text/html 258.5383ms
+2025-05-18 11:27:24.942 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:27:24.943 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:27:24.955 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 12.9337ms
+2025-05-18 11:27:25.019 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.7119ms
+2025-05-18 11:27:25.267 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2025-05-18 11:27:25.279 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 12.4607ms
+2025-05-18 11:27:25.290 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2025-05-18 11:27:29.623 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:29.628 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:29.635 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:27:29.648 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:29.652 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:27:29.664 +02:00 [INF] POST /api/measurements
+2025-05-18 11:27:29.779 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:27:29.791 +02:00 [INF] Вимірювання 395 збережено у БД
+2025-05-18 11:27:29.794 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:27:29.800 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 139.6103ms
+2025-05-18 11:27:29.800 +02:00 [INF] Received HTTP response headers after 169.3108ms - 201
+2025-05-18 11:27:29.804 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:29.808 +02:00 [INF] End processing HTTP request after 184.6427ms - 201
+2025-05-18 11:27:29.814 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 178.831ms
+2025-05-18 11:27:34.824 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:34.829 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:34.834 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:27:34.843 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:34.847 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:27:34.859 +02:00 [INF] POST /api/measurements
+2025-05-18 11:27:34.885 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:27:34.898 +02:00 [INF] Вимірювання 396 збережено у БД
+2025-05-18 11:27:34.902 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:27:34.906 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 53.1192ms
+2025-05-18 11:27:34.908 +02:00 [INF] Received HTTP response headers after 74.8084ms - 201
+2025-05-18 11:27:34.910 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:34.915 +02:00 [INF] End processing HTTP request after 91.6127ms - 201
+2025-05-18 11:27:34.920 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 85.8953ms
+2025-05-18 11:27:39.927 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:39.932 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:39.937 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:27:39.944 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:39.947 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:27:39.955 +02:00 [INF] POST /api/measurements
+2025-05-18 11:27:39.962 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:27:39.972 +02:00 [INF] Вимірювання 397 збережено у БД
+2025-05-18 11:27:39.975 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:27:39.979 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 25.9307ms
+2025-05-18 11:27:39.980 +02:00 [INF] Received HTTP response headers after 44.6545ms - 201
+2025-05-18 11:27:39.988 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:39.993 +02:00 [INF] End processing HTTP request after 65.4644ms - 201
+2025-05-18 11:27:39.999 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 61.6419ms
+2025-05-18 11:27:44.067 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/login - application/x-www-form-urlencoded 28
+2025-05-18 11:27:44.076 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:27:44.089 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:27:44.124 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-18 11:27:44.131 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:27:44.137 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi) in 37.2143ms
+2025-05-18 11:27:44.142 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:27:44.146 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/login - 200 null text/plain; charset=utf-8 78.8633ms
+2025-05-18 11:27:45.017 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:45.021 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:45.028 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:27:45.034 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:45.037 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:27:45.043 +02:00 [INF] POST /api/measurements
+2025-05-18 11:27:45.047 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:27:45.057 +02:00 [INF] Вимірювання 398 збережено у БД
+2025-05-18 11:27:45.059 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:27:45.062 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 20.4912ms
+2025-05-18 11:27:45.063 +02:00 [INF] Received HTTP response headers after 37.3283ms - 201
+2025-05-18 11:27:45.067 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:45.071 +02:00 [INF] End processing HTTP request after 54.1878ms - 201
+2025-05-18 11:27:45.077 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 49.2068ms
+2025-05-18 11:27:49.236 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/login - application/x-www-form-urlencoded 29
+2025-05-18 11:27:49.251 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:27:49.257 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:27:49.266 +02:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-05-18 11:27:49.270 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi) in 5.6034ms
+2025-05-18 11:27:49.275 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:27:49.277 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/login - 401 null text/plain; charset=utf-8 41.893ms
+2025-05-18 11:27:50.095 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:50.099 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:50.104 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:27:50.112 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:50.116 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:27:50.123 +02:00 [INF] POST /api/measurements
+2025-05-18 11:27:50.130 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:27:50.137 +02:00 [INF] Вимірювання 399 збережено у БД
+2025-05-18 11:27:50.139 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:27:50.143 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 21.3643ms
+2025-05-18 11:27:50.144 +02:00 [INF] Received HTTP response headers after 41.6504ms - 201
+2025-05-18 11:27:50.150 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:50.153 +02:00 [INF] End processing HTTP request after 58.1088ms - 201
+2025-05-18 11:27:50.158 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 54.6561ms
+2025-05-18 11:27:52.509 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/logout - null 0
+2025-05-18 11:27:52.518 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Logout (DeviceMeasurementsApi)'
+2025-05-18 11:27:52.529 +02:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:27:52.540 +02:00 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-18 11:27:52.543 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:27:52.547 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Logout (DeviceMeasurementsApi) in 12.0437ms
+2025-05-18 11:27:52.553 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Logout (DeviceMeasurementsApi)'
+2025-05-18 11:27:52.556 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/logout - 200 null text/plain; charset=utf-8 47.4482ms
+2025-05-18 11:27:55.170 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:55.177 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:27:55.183 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:27:55.191 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:55.195 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:27:55.201 +02:00 [INF] POST /api/measurements
+2025-05-18 11:27:55.207 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:27:55.214 +02:00 [INF] Вимірювання 400 збережено у БД
+2025-05-18 11:27:55.217 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:27:55.223 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 23.0176ms
+2025-05-18 11:27:55.224 +02:00 [INF] Received HTTP response headers after 42.5597ms - 201
+2025-05-18 11:27:55.230 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:27:55.235 +02:00 [INF] End processing HTTP request after 64.3625ms - 201
+2025-05-18 11:27:55.242 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 59.4076ms
+2025-05-18 11:27:57.892 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/login - application/x-www-form-urlencoded 28
+2025-05-18 11:27:57.899 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:27:57.902 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:27:57.910 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-18 11:27:57.913 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:27:57.916 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi) in 8.0849ms
+2025-05-18 11:27:57.921 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:27:57.926 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/login - 200 null text/plain; charset=utf-8 34.7416ms
+2025-05-18 11:27:59.597 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/logout - null 0
+2025-05-18 11:27:59.604 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Logout (DeviceMeasurementsApi)'
+2025-05-18 11:27:59.609 +02:00 [INF] Route matched with {action = "Logout", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout() on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:27:59.615 +02:00 [INF] AuthenticationScheme: Cookies signed out.
+2025-05-18 11:27:59.617 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:27:59.620 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Logout (DeviceMeasurementsApi) in 5.7756ms
+2025-05-18 11:27:59.631 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Logout (DeviceMeasurementsApi)'
+2025-05-18 11:27:59.634 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/logout - 200 null text/plain; charset=utf-8 37.7167ms
+2025-05-18 11:28:00.260 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:00.265 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:00.270 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:28:00.279 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:00.282 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:28:00.292 +02:00 [INF] POST /api/measurements
+2025-05-18 11:28:00.299 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:28:00.312 +02:00 [INF] Вимірювання 401 збережено у БД
+2025-05-18 11:28:00.317 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:28:00.324 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 33.3919ms
+2025-05-18 11:28:00.324 +02:00 [INF] Received HTTP response headers after 55.817ms - 201
+2025-05-18 11:28:00.332 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:00.337 +02:00 [INF] End processing HTTP request after 76.689ms - 201
+2025-05-18 11:28:00.342 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 72.1475ms
+2025-05-18 11:28:00.963 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/login - application/x-www-form-urlencoded 28
+2025-05-18 11:28:00.970 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:28:00.972 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, System.String) on controller DeviceMeasurementsApi.Controllers.AuthController (DeviceMeasurementsApi).
+2025-05-18 11:28:00.986 +02:00 [INF] AuthenticationScheme: Cookies signed in.
+2025-05-18 11:28:00.989 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-05-18 11:28:00.994 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi) in 9.0361ms
+2025-05-18 11:28:01.002 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.AuthController.Login (DeviceMeasurementsApi)'
+2025-05-18 11:28:01.006 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/login - 200 null text/plain; charset=utf-8 43.8936ms
+2025-05-18 11:28:05.353 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:05.357 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:05.362 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:28:05.370 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:05.373 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:28:05.380 +02:00 [INF] POST /api/measurements
+2025-05-18 11:28:05.386 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:28:05.398 +02:00 [INF] Вимірювання 402 збережено у БД
+2025-05-18 11:28:05.402 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:28:05.407 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 27.6341ms
+2025-05-18 11:28:05.407 +02:00 [INF] Received HTTP response headers after 46.5745ms - 201
+2025-05-18 11:28:05.412 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:05.416 +02:00 [INF] End processing HTTP request after 63.7421ms - 201
+2025-05-18 11:28:05.420 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 58.1277ms
+2025-05-18 11:28:05.781 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/api/sse/sse - null null
+2025-05-18 11:28:05.795 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:28:05.808 +02:00 [INF] Route matched with {action = "GetSse", controller = "SSE"}. Executing controller action with signature System.Threading.Tasks.Task GetSse(System.Threading.CancellationToken) on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:28:05.841 +02:00 [INF] GET /api/sse/sse
+2025-05-18 11:28:06.348 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:28:06.374 +02:00 [WRN] One or more of the following response headers have been removed because they are invalid for HTTP/2 and HTTP/3 responses: 'Connection', 'Transfer-Encoding', 'Keep-Alive', 'Upgrade' and 'Proxy-Connection'.
+2025-05-18 11:28:10.436 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:10.440 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:10.446 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:28:10.455 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:10.460 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:28:10.471 +02:00 [INF] POST /api/measurements
+2025-05-18 11:28:10.477 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:28:10.486 +02:00 [INF] Вимірювання 403 збережено у БД
+2025-05-18 11:28:10.487 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:28:10.491 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 21.1542ms
+2025-05-18 11:28:10.491 +02:00 [INF] Received HTTP response headers after 47.8808ms - 201
+2025-05-18 11:28:10.494 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:10.497 +02:00 [INF] End processing HTTP request after 60.3059ms - 201
+2025-05-18 11:28:10.501 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 55.5242ms
+2025-05-18 11:28:11.392 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[Id], [m].[Timestamp], [m].[Value]
+FROM [Measurements] AS [m]
+ORDER BY [m].[Timestamp] DESC
+2025-05-18 11:28:13.735 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7031/api/sse/stop - null 0
+2025-05-18 11:28:13.901 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi)'
+2025-05-18 11:28:14.046 +02:00 [INF] Route matched with {action = "StopStream", controller = "SSE"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StopStream() on controller DeviceMeasurementsApi.Controllers.SSEController (DeviceMeasurementsApi).
+2025-05-18 11:28:14.221 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi) in 8404.4372ms
+2025-05-18 11:28:14.223 +02:00 [INF] Стрим завершено
+2025-05-18 11:28:14.394 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.GetSse (DeviceMeasurementsApi)'
+2025-05-18 11:28:14.496 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-05-18 11:28:14.595 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi) in 373.2327ms
+2025-05-18 11:28:14.753 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.SSEController.StopStream (DeviceMeasurementsApi)'
+2025-05-18 11:28:14.910 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/api/sse/sse - 200 null text/event-stream 9129.5875ms
+2025-05-18 11:28:14.911 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7031/api/sse/stop - 200 0 null 1220.9623ms
+2025-05-18 11:28:15.518 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:15.523 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:28:15.530 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:28:15.537 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:15.541 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:28:15.549 +02:00 [INF] POST /api/measurements
+2025-05-18 11:28:15.555 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:28:15.563 +02:00 [INF] Вимірювання 404 збережено у БД
+2025-05-18 11:28:15.566 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:28:15.571 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 23.19ms
+2025-05-18 11:28:15.572 +02:00 [INF] Received HTTP response headers after 43.8769ms - 201
+2025-05-18 11:28:15.577 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:28:15.581 +02:00 [INF] End processing HTTP request after 62.1519ms - 201
+2025-05-18 11:28:15.584 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 54.9769ms
+2025-05-18 11:54:05.761 +02:00 [INF] User profile is available. Using 'C:\Users\danie\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 11:54:06.070 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:06.079 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:06.606 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-18 11:54:06.611 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-18 11:54:06.871 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 11:54:06.874 +02:00 [INF] Hosting environment: Development
+2025-05-18 11:54:06.876 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-18 11:54:07.691 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:54:07.879 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:08.881 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-18 11:54:08.912 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:54:09.260 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 366.0926ms
+2025-05-18 11:54:09.284 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:54:09.361 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 77.245ms
+2025-05-18 11:54:09.531 +02:00 [INF] POST /api/measurements
+2025-05-18 11:54:09.592 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:54:09.729 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 130.3557ms
+2025-05-18 11:54:10.804 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-18 11:54:10.921 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 117.6202ms
+2025-05-18 11:54:12.081 +02:00 [INF] Executed DbCommand (73ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:54:12.166 +02:00 [INF] Вимірювання 405 збережено у БД
+2025-05-18 11:54:12.177 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:54:12.247 +02:00 [INF] Received HTTP response headers after 6160.4434ms - 201
+2025-05-18 11:54:12.247 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 3319.1854ms
+2025-05-18 11:54:12.252 +02:00 [INF] End processing HTTP request after 6195.4036ms - 201
+2025-05-18 11:54:12.256 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:12.281 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 4628.8957ms
+2025-05-18 11:54:14.145 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/ssss.html - null null
+2025-05-18 11:54:14.282 +02:00 [INF] Sending file. Request path: '/ssss.html'. Physical path: 'C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi\wwwroot\ssss.html'
+2025-05-18 11:54:14.289 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/ssss.html - 200 null text/html 145.1954ms
+2025-05-18 11:54:14.294 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-18 11:54:14.295 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 11:54:14.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 23.6498ms
+2025-05-18 11:54:14.347 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.7005ms
+2025-05-18 11:54:15.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/favicon.ico - null null
+2025-05-18 11:54:15.498 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/favicon.ico - 404 0 null 13.8517ms
+2025-05-18 11:54:15.511 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7031/favicon.ico, Response status code: 404
+2025-05-18 11:54:17.276 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:17.282 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:17.288 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:54:17.298 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:17.303 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:54:17.312 +02:00 [INF] POST /api/measurements
+2025-05-18 11:54:17.415 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:54:17.425 +02:00 [INF] Вимірювання 406 збережено у БД
+2025-05-18 11:54:17.427 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:54:17.431 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 122.8559ms
+2025-05-18 11:54:17.431 +02:00 [INF] Received HTTP response headers after 146.9384ms - 201
+2025-05-18 11:54:17.435 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:17.438 +02:00 [INF] End processing HTTP request after 161.778ms - 201
+2025-05-18 11:54:17.441 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 153.9693ms
+2025-05-18 11:54:22.456 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:22.461 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:22.465 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:54:22.477 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:22.481 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:54:22.494 +02:00 [INF] POST /api/measurements
+2025-05-18 11:54:22.518 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:54:22.527 +02:00 [INF] Вимірювання 407 збережено у БД
+2025-05-18 11:54:22.529 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:54:22.533 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 44.2187ms
+2025-05-18 11:54:22.534 +02:00 [INF] Received HTTP response headers after 70.3225ms - 201
+2025-05-18 11:54:22.536 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:22.539 +02:00 [INF] End processing HTTP request after 83.7093ms - 201
+2025-05-18 11:54:22.542 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 76.9708ms
+2025-05-18 11:54:27.548 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:27.553 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-18 11:54:27.563 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-18 11:54:27.573 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:27.579 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-18 11:54:27.592 +02:00 [INF] POST /api/measurements
+2025-05-18 11:54:27.598 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-18 11:54:27.605 +02:00 [INF] Вимірювання 408 збережено у БД
+2025-05-18 11:54:27.607 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-18 11:54:27.610 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 19.2168ms
+2025-05-18 11:54:27.611 +02:00 [INF] Received HTTP response headers after 50.9089ms - 201
+2025-05-18 11:54:27.614 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-18 11:54:27.617 +02:00 [INF] End processing HTTP request after 69.0006ms - 201
+2025-05-18 11:54:27.621 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 58.6968ms

@@ -1,0 +1,71 @@
+2025-05-17 21:40:19.104 +02:00 [INF] Starting up the application...
+2025-05-17 21:40:21.195 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-17 21:40:21.208 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-17 21:40:21.655 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-17 21:40:21.660 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-17 21:40:22.336 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-17 21:40:22.338 +02:00 [INF] Hosting environment: Development
+2025-05-17 21:40:22.341 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-17 21:40:22.396 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-17 21:40:22.472 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-17 21:40:22.518 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-17 21:40:22.927 +02:00 [INF] POST /api/measurements
+2025-05-17 21:40:27.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-17 21:40:27.657 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 556.1192ms
+2025-05-17 21:40:27.687 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-17 21:40:27.779 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 92.1324ms
+2025-05-17 21:40:28.077 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-17 21:40:28.314 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 236.7395ms
+2025-05-17 21:40:29.628 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-17 21:40:30.002 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 373.8026ms
+2025-05-17 21:40:32.202 +02:00 [INF] Executed DbCommand (129ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-17 21:40:32.441 +02:00 [INF] Вимірювання 386 збережено у БД
+2025-05-17 21:40:32.498 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-17 21:40:32.617 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 10080.3977ms
+2025-05-17 21:40:32.622 +02:00 [INF] Received HTTP response headers after 11403.7544ms - 201
+2025-05-17 21:40:32.636 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-17 21:40:32.637 +02:00 [INF] End processing HTTP request after 11468.6113ms - 201
+2025-05-17 21:40:32.729 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 10348.9247ms
+2025-05-17 21:40:37.677 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-17 21:40:37.683 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-17 21:40:37.689 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-17 21:40:37.701 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-17 21:40:37.708 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-17 21:40:37.719 +02:00 [INF] POST /api/measurements
+2025-05-17 21:40:37.827 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Measurements] ([Timestamp], [Value])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2025-05-17 21:40:37.837 +02:00 [INF] Вимірювання 387 збережено у БД
+2025-05-17 21:40:37.839 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'DeviceMeasurementsApi.Models.Measurement'.
+2025-05-17 21:40:37.843 +02:00 [INF] Executed action DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi) in 127.0999ms
+2025-05-17 21:40:37.844 +02:00 [INF] Received HTTP response headers after 158.6194ms - 201
+2025-05-17 21:40:37.847 +02:00 [INF] Executed endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-17 21:40:37.850 +02:00 [INF] End processing HTTP request after 173.0054ms - 201
+2025-05-17 21:40:37.853 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7031/api/measurements - 201 null application/json; charset=utf-8 164.8615ms
+2025-05-17 23:24:39.779 +02:00 [INF] Start processing HTTP request POST https://localhost:7031/api/measurements
+2025-05-17 23:24:39.918 +02:00 [INF] Sending HTTP request POST https://localhost:7031/api/measurements
+2025-05-17 23:24:40.499 +02:00 [INF] Now listening on: https://localhost:7031
+2025-05-17 23:24:40.503 +02:00 [INF] Now listening on: http://localhost:5160
+2025-05-17 23:24:40.903 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-17 23:24:40.910 +02:00 [INF] Hosting environment: Development
+2025-05-17 23:24:40.917 +02:00 [INF] Content root path: C:\Users\danie\source\repos\DeviceMeasurementsApi\DeviceMeasurementsApi
+2025-05-17 23:24:41.005 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7031/api/measurements - application/json; charset=utf-8 null
+2025-05-17 23:24:42.315 +02:00 [INF] Executing endpoint 'DeviceMeasurementsApi.Controllers.MeasurementsController.AddMeasurement (DeviceMeasurementsApi)'
+2025-05-17 23:24:43.063 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/index.html - null null
+2025-05-17 23:24:43.096 +02:00 [INF] Route matched with {action = "AddMeasurement", controller = "Measurements"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddMeasurement(DeviceMeasurementsApi.Models.Measurement) on controller DeviceMeasurementsApi.Controllers.MeasurementsController (DeviceMeasurementsApi).
+2025-05-17 23:24:43.661 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/index.html - 200 null text/html;charset=utf-8 597.9425ms
+2025-05-17 23:24:43.935 +02:00 [INF] POST /api/measurements
+2025-05-17 23:24:44.062 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_vs/browserLink - null null
+2025-05-17 23:24:44.063 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-17 23:24:44.095 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 32.8581ms
+2025-05-17 23:24:44.241 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.6936ms
+2025-05-17 23:24:45.307 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - null null
+2025-05-17 23:24:45.336 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7031/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 29.4729ms
